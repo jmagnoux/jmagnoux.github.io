@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/cv.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="smoothScroll.js"></script>
+  <script src="progressbar.js"></script>
+  <script src="multipleProgressbar.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Jérôme Magnoux, mon CV numérique !</title>
+</head>
+<body data-spy="scroll" data-target="#menu" class="text-center">
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Jérôme Magnoux</a>
+          </div>
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a onclick="smoothScroll('#home')" href="#home">Présentation</a></li>
+              <li><a onclick="smoothScroll('#skills')" href="#skills">Compétences</a></li>
+              <li><a onclick="smoothScroll('#career')" href="#career">Parcours</a></li>
+              <li><a onclick="smoothScroll('#files')" href="#files">Documents</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="row" id="home">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12"><h1>Jérôme Magnoux</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12"><h2>Développeur web junior - full-stack</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="https://github.com/jmagnoux" target="_blank"><img src="img/github.png" alt="Github" title="Github"/></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="#" target="_blank"><img src="img/linkedin.png" alt="Linkedin" title="Linkedin"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <p><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><span class="sr-only">addresse :</span> 59, Rue des îles</p>
+            <p>60400 Cuts</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="row">
+              <div class="col-lg-12">
+                <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="sr-only">e-mail :</span> <a href="mailto:toto@pwet.fr">toto@pwet.fr</a>
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span><span class="sr-only">Téléphone :</span> 06.06.06.06.06
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skills">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12"><h2>Compétences</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Logiciels</h3>
+            <p>Atom<span class="progressBar" id="progress0" value="25"></span></p>
+            <p>Apache<span class="progressBar" id="progress1" value="75"></span></p>
+            <p>Matlab<span class="progressBar" id="progress2" value="75"></span></p>
+          </div>
+          <div class="col-md-4">
+            <h3>languages</h3>
+            <p>HTML<span class="progressBar" id="progress3" value="75"></span></p>
+            <p>CSS<span class="progressBar" id="progress4" value="75"></span></p>
+            <p>Javascript<span class="progressBar" id="progress5" value="75"></span></p>
+            <p>PHP<span class="progressBar" id="progress6" value="75"></span></p>
+            <p>C/C++<span class="progressBar" id="progress7" value="75"></span></p>
+            <p>Java<span class="progressBar" id="progress8" value="75"></span></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Autres</h3>
+            <p>linux/Terminal<span class="progressBar" id="progress9" value="75"></span></p>
+            <p>git<span class="progressBar" id="progress10" value="75"></span></p>
+            <p>Vhost<span class="progressBar" id="progress11" value="75"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="career">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12"><h2>Parcours</h2></div>
+        </div>
+        <div class="row">
+          <ul class="timeline">
+            <li class="tldate"><h3>2008</h3></li>
+            <li>
+              <div class="tl-circ tl-circ-left"></div>
+              <div class="timeline-panel text-left">
+                <p>Baccalauréat Scientifique option Science de l’Ingénieur.
+                </p>
+              </div>
+            </li>
+            <li class="tldate"><h3>2010</h3></li>
+            <li class="timeline-inverted">
+              <div class="tl-circ tl-circ-right"></div>
+              <div class="timeline-panel text-left">
+                <p>Technicien supérieur dans l’entreprise Matra électronique à la croix Saint-Ouen (60).
+                  Portage d’une interface graphique pour le logiciel VEE en C++ et avec Windev.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="tl-circ tl-circ-left"></div>
+              <div class="timeline-panel text-left">
+                <p>DUT Génie Électrique et Informatique Industrielle (<a href="https://iut-aisne.u-picardie.fr/departements/ge2i/genie-electrique-et-informatique-industrielle-400711.kjsp" target="_blank">GEII</a>) à Soissons (02).
+                </p>
+              </div>
+            </li>
+            <li class="tldate"><h3>2013</h3></li>
+            <li class="timeline-inverted">
+              <div class="tl-circ tl-circ-right"></div>
+              <div class="timeline-panel text-left">
+                <p>Ingénieur dans l’association Observation Pleumeur-Bodou (22. Réalisation d’une carte de
+                  commande sous Kicad et Proteus d’une parabole comportant un PIC. La carte sert à réaliser l’acquisition des données
+                  provenant des capteurs, quant au PIC, il sert à communiquer par liaison UART avec une Raspberry-PI.
+                </p>
+              </div>
+            </li>
+            <li class="tldate"><h3>2014</h3></li>
+            <li class="timeline-inverted">
+              <div class="tl-circ tl-circ-right"></div>
+              <div class="timeline-panel text-left">
+                <p>Ingénieur au laboratoire Cairn à Lannion (22). Réalisation d’une transmission ultra large
+                  bande impulsionnelle entre FPGA. Développement VHDL d’une communication sans fil ultra large bande et sans «front
+                  end » sur un Virtex-6 de chez Xilinx.
+                </p>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="tl-circ tl-circ-right"></div>
+              <div class="timeline-panel text-left">
+                <p>Ingénieur à Orange Labs de Rennes (35). Réalisation d’un démonstrateur audio 3D sur
+                  terminaux mobiles. Développement C/C++ et Objective-C d’une application smartphone (Apple) d’enregistrement
+                  audio 3D.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="tl-circ tl-circ-left"></div>
+              <div class="timeline-panel text-left">
+                <p>Ingénieur diplômé de l'École Nationale Supérieure des Sciences Appliquées et Technologique (<a href="http://www.enssat.fr/" target="_blank">ENSSAT</a>) option
+                  électronique et informatique industrielle (EII) à Lannion (22).
+                </p>
+              </div>
+            </li>
+            <li class="tldate"><h3>2017</h3></li>
+            <li>
+              <div class="tl-circ tl-circ-left"></div>
+              <div class="timeline-panel text-left">
+                <p>Formation de développeur web à l'École du Numérique du Noyonnais (<a href="http://formation.novei.fr/" target="_blank">E2N</a>) à Noyon(60).
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="files">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12"><h2>Documents</h2></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+            <div class="thumbnail">
+              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <div class="caption">
+                <p>C.V. au format pdf</p>
+                <a href="files/cvJeromeMagnoux.pdf" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+            <div class="thumbnail">
+              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <div class="caption">
+                <p>Diplôme</p>
+                <a href="#" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+            <div class="thumbnail">
+              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <div class="caption">
+                <p>PSC1</p>
+                <a href="#" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+            <div class="thumbnail">
+              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <div class="caption">
+                <p>TOEIC</p>
+                <a href="#" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
