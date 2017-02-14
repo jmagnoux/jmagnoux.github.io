@@ -3,7 +3,10 @@ var endColor = '#A41C22';
 
 window.onload = function onLoad() {
   window.index = 0;
-  var progressBars =["progress0", "progress1", "progress2","progress3","progress4","progress5","progress6","progress7","progress8","progress9","progress10","progress11","progress12"]
+  var progressBars=[];
+  for (var i = 0; i < $(".progressBar").length; i++) {
+    progressBars[i] = "progress"+i.toString();
+  }
   function createBarProgress(divId){
     var bar = new ProgressBar.Line('#'+divId, {
       strokeWidth: 4,
@@ -34,7 +37,24 @@ window.onload = function onLoad() {
       to: {color: endColor}
     });
   }
-  for(var i=0;i<progressBars.length;i++){
+  function moveImg(divId)
+  {
+    var imgId = "#"+divId+"Img";
+    var value = $('#'+divId).attr('value');
+    if (value >= 1.0) {
+
+    }
+    else {
+      imgId.animate({
+        left: '+='+(Math.round(bar.value() * 100) + ' %')
+      }, {
+        duration: 1400,
+        easing: 'bounce'});
+      }
+  }
+  for (var i = 0; i < progressBars.length; i++) {
+    progressBars[i] = "progress"+i.toString();
     createBarProgress(progressBars[i]);
+    moveImg(progressBars[i]);
   }
 };

@@ -6,10 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-svg::before
-{
-  content: url("img/progression.png");
-}
 h1, .navbar-brand
 {
   font-family: 'Sacramento', cursive;
@@ -22,6 +18,11 @@ h2
 {
   font-family: 'VT323', monospace;
   font-size: 30px;
+}
+#skills img
+{
+  text-align: left !important;
+  margin-left: 5%;
 }
 body
 {
