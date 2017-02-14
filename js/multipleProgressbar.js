@@ -4,10 +4,11 @@ var endColor = '#A41C22';
 window.onload = function onLoad() {
   window.index = 0;
   var progressBars=[];
-  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  alert(iOS);
+  var iOS = /iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   if(!iOS)
   {
+    $('.progressBar').show();
+    $('.meter').hide();
     function createBarProgress(divId){
       var bar = new ProgressBar.Line('#'+divId, {
         strokeWidth: 4,
@@ -41,19 +42,6 @@ window.onload = function onLoad() {
     for (var i = 0; i < $(".progressBar").length; i++) {
       progressBars[i] = "progress"+i.toString();
       createBarProgress(progressBars[i]);
-    }
-  }
-  else
-  {
-    for (var i = 0; i < $(".progressBar").length; i++) {
-      progressBars[i] = "progress"+i.toString();
-      var percentValue = $('#'+progressBars[i]).attr('value');
-      $('#'+progressBars[i]).hide();
-      $('.progress').show();
-      $('#'+progressBars[i]+'-bar').show();
-      $('#'+progressBars[i]+'-bar').attr('aria-valuenow', percentValue);
-      $('#'+progressBars[i]+'-bar').css('width', percentValue+'%');
-      $('#'+progressBars[i]+'-bar').text(percentValue+'%');
     }
   }
 };
