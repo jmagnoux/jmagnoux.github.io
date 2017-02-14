@@ -189,6 +189,10 @@ body
 {
   border-top-right-radius: 50%;
 }
+.progress, .progress-bar
+{
+  display: none;
+}
 @media (max-width: 700px)
 {
   .timeline::before
