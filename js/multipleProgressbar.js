@@ -5,6 +5,7 @@ window.onload = function onLoad() {
   window.index = 0;
   var progressBars=[];
   var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  alert(iOS);
   if(!iOS)
   {
     function createBarProgress(divId){
