@@ -246,7 +246,7 @@
               <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
                 <p>C.V.</p>
-                <a href="files/cvJeromeMagnoux.pdf" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+                <div id="cvJeromeMagnoux" onclick="displayModal(event, 'pdf')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
               </div>
             </div>
           </div>
@@ -255,16 +255,16 @@
               <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
                 <p>Diplôme</p>
-                <a href="#" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+                <div id="PSC1" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
               </div>
             </div>
           </div>
           <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
             <div class="thumbnail">
-              <img src="img/PSC1Miniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <img src="img/PSC1Miniature.jpg" alt="PSC1" title="PSC1">
               <div class="caption">
                 <p>PSC1</p>
-                <a href="files/PSC1.jpg" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+                <div id="PSC1" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt" > Télécharger</div>
               </div>
             </div>
           </div>
@@ -273,10 +273,15 @@
               <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
                 <p>TOEIC</p>
-                <a href="#" target="_blank" class="btn btn-primary glyphicon glyphicon-download-alt" role="button"> Télécharger</a>
+                <div id="TOEIC" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
               </div>
             </div>
           </div>
+        </div>
+        <div id="myModal" class="modal">
+          <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+          <img class="modal-content" id="img01">
+          <iframe src="" class="modal-content" id="frame" frameborder="0"></iframe>
         </div>
       </div>
     </div>
@@ -286,5 +291,6 @@
   <script type="text/javascript" src="js/smoothScroll.js"></script>
   <script type="text/javascript" src="js/progressbar.js"></script>
   <script type="text/javascript" src="js/multipleProgressbar.js"></script>
+  <script type="text/javascript" src="js/displayModal.js"></script>
 </body>
 </html>
