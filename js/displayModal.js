@@ -1,16 +1,22 @@
 function displayModal(e, ext){
   var elemId = e.target.id;
-  document.getElementById("myModal").style.display = "block";
-  if(ext == "jpg")
+  if($(window).width() < 768)
   {
-    document.getElementById("img01").style.display = "block";
-    document.getElementById("frame").style.display = "none";
-    document.getElementById("img01").src = "files/"+elemId+".jpg";
+    window.open("files/"+elemId+ "." + ext, "_blank");
   }
-  else
-  {
-    document.getElementById("img01").style.display = "none";
-    document.getElementById("frame").style.display = "block";
-    document.getElementById("frame").src = "files/"+elemId+".pdf";
+  else {
+    $("#myModal").show();
+    if(ext == "jpg")
+    {
+      $("#img01").show();
+      $("#frame").hide();
+      $("#img01").attr("src", "files/"+elemId+".jpg");
+    }
+    else
+    {
+      $("#img01").hide();
+      $("#frame").show();
+      $("#frame").attr("src", "files/"+elemId+".pdf");
+    }
   }
 }
