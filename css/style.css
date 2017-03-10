@@ -59,6 +59,11 @@ h2
 {
   color: #A41C22;
 }
+#hobbies img
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 #career
 {
   background-color: #A41C22;
