@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width= device-width,initial-scale=1">
-  <link rel="shortcut icon" href="img/cv.ico">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="assets/img/cv.ico">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Jérôme Magnoux, mon CV numérique !</title>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -30,7 +30,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Jérôme Magnoux</a>
+            <a class="navbar-brand" onclick="smoothScroll('#home')" href="#home">Jérôme Magnoux</a>
           </div>
           <div id="menu" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
@@ -56,12 +56,12 @@
           <div class="col-sm-4">
             <div class="row">
               <div class="col-lg-12">
-                <a href="https://github.com/jmagnoux" target="_blank"><img src="img/github.png" alt="Github" title="Github"/></a>
+                <a href="https://github.com/jmagnoux" target="_blank"><img src="assets/img/github.png" alt="Github" title="Github"/></a>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12">
-                <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-magnoux-a0964a138/" target="_blank"><img src="img/linkedin.png" alt="Linkedin" title="Linkedin"/></a>
+                <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-magnoux-a0964a138/" target="_blank"><img src="assets/img/linkedin.png" alt="Linkedin" title="Linkedin"/></a>
               </div>
             </div>
           </div>
@@ -103,13 +103,13 @@
               <p><span style="width: 70%"></span>70%</p>
             </div>
             <h3>langages</h3>
-            <p>HTML/CSS<span class="progressBar" id="progress3" value="60"></span></p>
+            <p>HTML/CSS<span class="progressBar" id="progress3" value="80"></span></p>
+            <div class="meter text-left">
+              <p><span style="width: 80%"></span>80%</p>
+            </div>
+            <p>Javascript<span class="progressBar" id="progress5" value="60"></span></p>
             <div class="meter text-left">
               <p><span style="width: 60%"></span>60%</p>
-            </div>
-            <p>Javascript<span class="progressBar" id="progress5" value="10"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 10%"></span>10%</p>
             </div>
             <p>PHP<span class="progressBar" id="progress6" value="10"></span></p>
             <div class="meter text-left">
@@ -130,13 +130,13 @@
             <div class="meter text-left">
               <p><span style="width: 80%"></span>80%</p>
             </div>
-            <p>Angular<span class="progressBar" id="progress11" value="0"></span></p>
+            <p>Angular<span class="progressBar" id="progress11" value="20"></span></p>
             <div class="meter text-left">
-              <p><span style="width: 0%"></span>0%</p>
+              <p><span style="width: 20%"></span>20%</p>
             </div>
-            <p>Bootstrap<span class="progressBar" id="progress12" value="60"></span></p>
+            <p>Bootstrap<span class="progressBar" id="progress12" value="70"></span></p>
             <div class="meter text-left">
-              <p><span style="width: 60%"></span>60%</p>
+              <p><span style="width: 70%"></span>70%</p>
             </div>
             <p>Symfony<span class="progressBar" id="progress13" value="0"></span></p>
             <div class="meter text-left">
@@ -158,9 +158,9 @@
             <div class="meter text-left">
               <p><span style="width: 80%"></span>80%</p>
             </div>
-            <p>NetBeans<span class="progressBar" id="progress1" value="0"></span></p>
+            <p>NetBeans<span class="progressBar" id="progress1" value="20"></span></p>
             <div class="meter text-left">
-              <p><span style="width: 0%"></span>0%</p>
+              <p><span style="width: 20%"></span>20%</p>
             </div>
             <p>Nano<span class="progressBar" id="progress2" value="80"></span></p>
             <div class="meter text-left">
@@ -209,7 +209,7 @@
                 <p class="place">Matra Électronique, Lacroix-Saint-Ouen, Oise</p>
                 <p>Étude de faisabilité de portage d’une IHM pour VEE.</p>
                 <p>Développement de prototypes</p>
-                <p>→ Windev, Qt, C/C++.</p>
+                <p>→ Windev, Qt, C/C++, Gestion du temps.</p>
               </div>
             </li>
             <li>
@@ -230,7 +230,7 @@
                 <p class="place">Club robotique ENSSAT, Lannion, Côtes-d’Armor</p>
                 <p>Programmation d’un tri par couleur.</p>
                 <p>Documentation &amp; Développement d’une fonctionnalité.</p>
-                <p>→ C, MPlab X, Kicad.</p>
+                <p>→ C, MPlab X, Kicad, Esprit d’équipe, Pédagogie.</p>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -240,7 +240,7 @@
                 <p class="place">Association Observatoire Pleumeur-Bodou, Pleumeur-Bodou, Côtes-d’Armor</p>
                 <p>Réalisation d’une carte d'asservissement.</p>
                 <p>Routage &amp; Asservissement</p>
-                <p>→ Kicad, Proteus, Java.</p>
+                <p>→ Kicad, Proteus, Java, Autonomie, Organisation.</p>
               </div>
             </li>
             <li class="tldate"><h3>2014</h3></li>
@@ -251,7 +251,7 @@
                 <p class="place">Laboratoire IRISA, Lannion, Côtes-d’Armor</p>
                 <p>Étude de faisabilité de transmission UWB entre FPGA.</p>
                 <p>Recherche &amp; Développement d’un prototype.</p>
-                <p>→ VHDL, Virtex-6, Xilinx ISE, UWB.</p>
+                <p>→ VHDL, Virtex-6, Xilinx ISE, UWB, Autonomie, Recherche.</p>
               </div>
             </li>
             <li class="timeline-inverted">
@@ -261,7 +261,7 @@
                 <p class="place">Orange Labs, Rennes,Ille-et-Villaine</p>
                 <p>Réalisation d’un démonstrateur audio 3D sur terminaux mobiles.</p>
                 <p>Rétro-ingénierie &amp; Développement d’application.</p>
-                <p>→ Objective-C, C++, XCode.</p>
+                <p>→ Objective-C, C++, XCode, Autonomie, Gestion du temps, Rétro-ingénierie.</p>
               </div>
             </li>
             <li>
@@ -298,7 +298,7 @@
         <div class="row">
           <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
             <div class="thumbnail">
-              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <img src="assets/img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
                 <p>C.V.</p>
                 <div id="cvJeromeMagnoux" onclick="displayModal(event, 'pdf')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
@@ -307,16 +307,16 @@
           </div>
           <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
             <div class="thumbnail">
-              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <img src="assets/img/cvMiniature.jpg" alt="Titre pro." title="Titre pro.">
               <div class="caption">
-                <p>Diplôme</p>
-                <div id="PSC1" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
+                <p>Titre</p>
+                <div id="titre" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt disabled"> Télécharger</div>
               </div>
             </div>
           </div>
           <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
             <div class="thumbnail">
-              <img src="img/PSC1Miniature.jpg" alt="PSC1" title="PSC1">
+              <img src="assets/img/PSC1Miniature.jpg" alt="PSC1" title="PSC1">
               <div class="caption">
                 <p>PSC1</p>
                 <div id="PSC1" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt" > Télécharger</div>
@@ -325,10 +325,10 @@
           </div>
           <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
             <div class="thumbnail">
-              <img src="img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
+              <img src="assets/img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
                 <p>TOEIC</p>
-                <div id="TOEIC" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
+                <div id="TOEIC" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt disabled"> Télécharger</div>
               </div>
             </div>
           </div>
@@ -347,27 +347,28 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-4">
-            <img src="img/dice20.png" alt="Jeux de rôle" title="Jeux de rôle">
-            <div>Jeux de rôle</div>
+            <img src="assets/img/dice20.png" alt="Jeux de rôle" title="Jeux de rôle">
+            <div><p>Jeux de rôle</p></div>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <img src="img/read.jpg" alt="Lecture" title="Lecture">
-            <div>Romans fantastique</div>
+            <img src="assets/img/read.jpg" alt="Lecture" title="Lecture">
+            <div><p>Romans fantastique</p></div>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <img src="img/3dprint.png" alt="impression 3D" title="impression 3D">
-            <div>Impression 3D</div>
+            <img src="assets/img/3dprint.png" alt="impression 3D" title="impression 3D">
+            <div><p>Impression 3D</p></div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/smoothScroll.js"></script>
-  <script type="text/javascript" src="js/progressbar.js"></script>
-  <script type="text/javascript" src="js/multipleProgressbar.js"></script>
-  <script type="text/javascript" src="js/displayModal.js"></script>
-  <script type="text/javascript" src="js/timelineAnim.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
+  <script type="text/javascript" src="assets/js/progressbar.js"></script>
+  <script type="text/javascript" src="assets/js/multipleProgressbar.js"></script>
+  <script type="text/javascript" src="assets/js/displayModal.js"></script>
+  <script type="text/javascript" src="assets/js/timelineAnim.js"></script>
 </body>
 </html>
