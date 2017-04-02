@@ -1,3 +1,4 @@
+var items = [];
 var app = angular.module("myCv",[]);
 app.controller("timelineCtrl", ["$scope", "$http", function($scope, $http){
   $http.get('assets/js/career.json')
@@ -5,13 +6,23 @@ app.controller("timelineCtrl", ["$scope", "$http", function($scope, $http){
     var data = response.data;
     $scope.experiences = data;
   });
-  $scope.search = function(index){
-    return $scope.experiences[index].year;
-  }
+  $scope.$on('ngRepeatFinished', function(ngRepeatFinishedEvent) {
+    items = $(".timeline-panel");
+  });
 }]);
+app.directive('onFinishRender', function ($timeout) {
+  return {
+    restrict: 'A',
+    link: function (scope, element, attr) {
+      if (scope.$last === true) {
+        $timeout(function () {
+          scope.$emit(attr.onFinishRender);
+        });
+      }
+    }
+  }
+});
 $(function(){
-
-  var items = $(".timeline-panel");
   function isElemInView(elem)
   {
     var viewport = {};

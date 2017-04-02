@@ -232,7 +232,7 @@
         </div>
         <div class="row">
           <ul class="timeline">
-            <li data-ng-repeat="xp in experiences" data-ng-class="{'timeline-inverted':!xp.study, tldate:xp.isDate}">
+            <li data-ng-repeat="xp in experiences track by $index" data-ng-class="{'timeline-inverted':!xp.study, tldate:xp.isDate}" on-finish-render="ngRepeatFinished">
               <div data-ng-if="xp.isDate">
                 <h3>{{xp.year}}</h3>
               </div>
