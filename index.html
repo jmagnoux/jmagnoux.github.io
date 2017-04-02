@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width= device-width,initial-scale=1">
   <link rel="shortcut icon" href="assets/img/cv.ico">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Jérôme Magnoux, mon CV numérique !</title>
   <script>
@@ -18,7 +19,7 @@
 
   </script>
 </head>
-<body data-spy="scroll" data-target="#menu" class="text-center">
+<body data-spy="scroll" data-target="#menu" class="text-center" data-ng-app="myCv">
   <div class="container">
     <header>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -54,20 +55,18 @@
         </div>
         <div class="row">
           <div class="col-sm-4">
-            <div class="row">
-              <div class="col-lg-12">
-                <a href="https://github.com/jmagnoux" target="_blank"><img src="assets/img/github.png" alt="Github" title="Github"/></a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-magnoux-a0964a138/" target="_blank"><img src="assets/img/linkedin.png" alt="Linkedin" title="Linkedin"/></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
             <p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><span class="sr-only">adresse :</span> 59, Rue des îles</p>
             <p>60400 Cuts</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="row">
+              <div class="col-sm-6">
+                <a href="https://github.com/jmagnoux" target="_blank" class="fa fa-github-alt fa-4x"></a>
+              </div>
+              <div class="col-sm-6">
+                <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-magnoux-a0964a138/" target="_blank" class="fa fa-linkedin fa-4x"></a>
+              </div>
+            </div>
           </div>
           <div class="col-sm-4">
             <div class="row">
@@ -94,196 +93,159 @@
         <div class="row">
           <div class="col-md-4">
             <h3>O.S.</h3>
-            <p>linux/Terminal<span class="progressBar" id="progress9" value="70"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 70%"></span>70%</p>
+            <div class="improveVisibility">
+              <p>linux/Terminal<span class="progressBar" id="progress9" value="70"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 70%"></span>70%</p>
+              </div>
             </div>
-            <p>Windows<span class="progressBar" id="progress4" value="70"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 70%"></span>70%</p>
+            <div class="improveVisibility">
+              <p>Windows<span class="progressBar" id="progress4" value="70"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 70%"></span>70%</p>
+              </div>
             </div>
-            <h3>langages</h3>
-            <p>HTML/CSS<span class="progressBar" id="progress3" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>MacOS<span class="progressBar" id="progress14" value="70"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 70%"></span>70%</p>
+              </div>
             </div>
-            <p>Javascript<span class="progressBar" id="progress5" value="60"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 60%"></span>60%</p>
+            <h3>Langages</h3>
+            <div class="improveVisibility">
+              <p>HTML/CSS<span class="progressBar" id="progress3" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
             </div>
-            <p>PHP<span class="progressBar" id="progress6" value="10"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 10%"></span>10%</p>
+            <div class="improveVisibility">
+              <p>JavaScript<span class="progressBar" id="progress5" value="60"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 60%"></span>60%</p>
+              </div>
             </div>
-            <p>C/C++<span class="progressBar" id="progress7" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>PHP<span class="progressBar" id="progress6" value="10"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 10%"></span>10%</p>
+              </div>
             </div>
-            <p>Java<span class="progressBar" id="progress8" value="65"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 65%"></span>65%</p>
+            <div class="improveVisibility">
+              <p>C/C++<span class="progressBar" id="progress7" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
+            </div>
+            <div class="improveVisibility">
+              <p>Java<span class="progressBar" id="progress8" value="65"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 65%"></span>65%</p>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <h3>Framework &amp; Bibliothèque</h3>
-            <p>JQuery<span class="progressBar" id="progress10" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>JQuery<span class="progressBar" id="progress10" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
             </div>
-            <p>Angular<span class="progressBar" id="progress11" value="20"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 20%"></span>20%</p>
+            <div class="improveVisibility">
+              <p>AngularJS<span class="progressBar" id="progress11" value="20"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 20%"></span>20%</p>
+              </div>
             </div>
-            <p>Bootstrap<span class="progressBar" id="progress12" value="70"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 70%"></span>70%</p>
+            <div class="improveVisibility">
+              <p>Bootstrap<span class="progressBar" id="progress12" value="70"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 70%"></span>70%</p>
+              </div>
             </div>
-            <p>Symfony<span class="progressBar" id="progress13" value="0"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 0%"></span>0%</p>
-            </div>
-            <p>AJAX<span class="progressBar" id="progress14" value="0"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 0%"></span>0%</p>
+            <div class="improveVisibility">
+              <p>Symfony<span class="progressBar" id="progress13" value="0"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 0%"></span>0%</p>
+              </div>
             </div>
             <h3>Langues</h3>
-            <p>Anglais<span class="progressBar" id="progress15" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>Anglais<span class="progressBar" id="progress15" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
             <h3>Logiciels &amp; Outils</h3>
-            <p>Atom<span class="progressBar" id="progress0" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>Atom<span class="progressBar" id="progress0" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
             </div>
-            <p>NetBeans<span class="progressBar" id="progress1" value="20"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 20%"></span>20%</p>
+            <div class="improveVisibility">
+              <p>NetBeans<span class="progressBar" id="progress1" value="20"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 20%"></span>20%</p>
+              </div>
             </div>
-            <p>Nano<span class="progressBar" id="progress2" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>Nano<span class="progressBar" id="progress2" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
             </div>
-            <p>Git/Github<span class="progressBar" id="progress16" value="80"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 80%"></span>80%</p>
+            <div class="improveVisibility">
+              <p>Git<span class="progressBar" id="progress16" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>80%</p>
+              </div>
             </div>
-            <p>BitBucket<span class="progressBar" id="progress17" value="0"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 0%"></span>0%</p>
+            <div class="improveVisibility">
+              <p>GitHub/BitBucket<span class="progressBar" id="progress17" value="80"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 80%"></span>0%</p>
+              </div>
             </div>
-            <p>Pencil<span class="progressBar" id="progress18" value="40"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 40%"></span>40%</p>
+            <div class="improveVisibility">
+              <p>Pencil<span class="progressBar" id="progress18" value="40"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 40%"></span>40%</p>
+              </div>
             </div>
-            <p>LAMP<span class="progressBar" id="progress19" value="20"></span></p>
-            <div class="meter text-left">
-              <p><span style="width: 20%"></span>20%</p>
+            <div class="improveVisibility">
+              <p>LAMP<span class="progressBar" id="progress19" value="20"></span></p>
+              <div class="meter text-left">
+                <p><span style="width: 20%"></span>20%</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row" id="career">
+    <div class="row" id="career" data-ng-controller="timelineCtrl">
       <div class="col-lg-12">
         <div class="row">
           <div class="col-lg-12"><h2>Parcours</h2></div>
         </div>
         <div class="row">
           <ul class="timeline">
-            <li class="tldate"><h3>2008</h3></li>
-            <li>
-              <div class="tl-circ tl-circ-left"></div>
-              <div class="timeline-panel text-left" id="Bac">
-                <p>Baccalauréat Scientifique option Science de l’Ingénieur</p>
-                <p class="place">Lycée Jean Calvin, Noyon, Oise</p>
+            <li data-ng-repeat="xp in experiences" data-ng-class="{'timeline-inverted':!xp.study, tldate:xp.isDate}">
+              <div data-ng-if="xp.isDate">
+                <h3>{{xp.year}}</h3>
               </div>
-            </li>
-            <li class="tldate"><h3>2010</h3></li>
-            <li class="timeline-inverted">
-              <div class="tl-circ tl-circ-right"></div>
-              <div class="timeline-panel text-left">
-                <p>Technicien développeur logiciel</p>
-                <p class="place">Matra Électronique, Lacroix-Saint-Ouen, Oise</p>
-                <p>Étude de faisabilité de portage d’une IHM pour VEE.</p>
-                <p>Développement de prototypes</p>
-                <p>→ Windev, Qt, C/C++, Gestion du temps.</p>
-              </div>
-            </li>
-            <li>
-              <div class="tl-circ tl-circ-left"></div>
-              <div class="timeline-panel text-left">
-                <p>DUT GEII</p>
-                <p class="place">IUT de l’Aisne, Cuffies, Aisne</p>
-                <p>Génie Électrique et Informatique Industrielle.</p>
-                <p>Sujets principaux: Électronique numérique et analogique, programmation C/C++ et Électrotechnique.</p>
-                <p><a href="https://iut-aisne.u-picardie.fr/departements/ge2i/genie-electrique-et-informatique-industrielle-400711.kjsp" target="_blank">En savoir plus ></a></p>
-              </div>
-            </li>
-            <li class="tldate"><h3>2013</h3></li>
-            <li class="timeline-inverted">
-              <div class="tl-circ tl-circ-right"></div>
-              <div class="timeline-panel text-left">
-                <p>Développeur C</p>
-                <p class="place">Club robotique ENSSAT, Lannion, Côtes-d’Armor</p>
-                <p>Programmation d’un tri par couleur.</p>
-                <p>Documentation &amp; Développement d’une fonctionnalité.</p>
-                <p>→ C, MPlab X, Kicad, Esprit d’équipe, Pédagogie.</p>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="tl-circ tl-circ-right"></div>
-              <div class="timeline-panel text-left">
-                <p>Ingénieur électronique analogique</p>
-                <p class="place">Association Observatoire Pleumeur-Bodou, Pleumeur-Bodou, Côtes-d’Armor</p>
-                <p>Réalisation d’une carte d'asservissement.</p>
-                <p>Routage &amp; Asservissement</p>
-                <p>→ Kicad, Proteus, Java, Autonomie, Organisation.</p>
-              </div>
-            </li>
-            <li class="tldate"><h3>2014</h3></li>
-            <li class="timeline-inverted">
-              <div class="tl-circ tl-circ-right"></div>
-              <div class="timeline-panel text-left">
-                <p>Ingénieur électronique numérique</p>
-                <p class="place">Laboratoire IRISA, Lannion, Côtes-d’Armor</p>
-                <p>Étude de faisabilité de transmission UWB entre FPGA.</p>
-                <p>Recherche &amp; Développement d’un prototype.</p>
-                <p>→ VHDL, Virtex-6, Xilinx ISE, UWB, Autonomie, Recherche.</p>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="tl-circ tl-circ-right"></div>
-              <div class="timeline-panel text-left">
-                <p>Ingénieur développement smartphone </p>
-                <p class="place">Orange Labs, Rennes,Ille-et-Villaine</p>
-                <p>Réalisation d’un démonstrateur audio 3D sur terminaux mobiles.</p>
-                <p>Rétro-ingénierie &amp; Développement d’application.</p>
-                <p>→ Objective-C, C++, XCode, Autonomie, Gestion du temps, Rétro-ingénierie.</p>
-              </div>
-            </li>
-            <li>
-              <div class="tl-circ tl-circ-left"></div>
-              <div class="timeline-panel text-left">
-                <p>Diplôme d’ingénieur</p>
-                <p class="place">ENSSAT, Lannion, Côtes-d’Armor</p>
-                <p>Électronique et informatique industrielle.</p>
-                <p>Sujets principaux: Électronique numérique, Programmation, Traitement du signal, Télécommunication et Maths.</p>
-                <p><a href="http://www.enssat.fr/fr_FR/formations/formation-ingenieur-electronique" target="_blank">En savoir plus ></a></p>
-              </div>
-            </li>
-            <li class="tldate"><h3>2017</h3></li>
-            <li>
-              <div class="tl-circ tl-circ-left"></div>
-              <div class="timeline-panel text-left">
-                <p>Formation « Développement Web »</p>
-                <p class="place">E2N, Noyon, Oise</p>
-                <p>Formation labellisée Grande École du Numérique par L’État.</p>
-                <p>Préparation du Titre Professionnel ”Développeur Logiciel”.</p>
-                <p>Titre certifié au RNCP Niveau III (équivalent Bac+2).</p>
-                <p><a href="http://formation.novei.fr/" target="_blank">En savoir plus ></a></p>
+              <div data-ng-if="!xp.isDate">
+                <div class="tl-circ" data-ng-class="{'tl-circ-left':xp.study, 'tl-circ-right':!xp.study}"></div>
+                <div class="timeline-panel text-left">
+                  <p data-ng-bind="xp.title"></p>
+                  <p class="place text-right" data-ng-bind="xp.place"></p>
+                  <p data-ng-bind="xp.data1"></p>
+                  <p data-ng-bind="xp.data2"></p>
+                  <p data-ng-bind="xp.data3" data-ng-if="!xp.study"></p>
+                  <p data-ng-if="xp.study"><a href={{xp.data3}} target="_blank">En savoir plus ></a></p>
+                </div>
               </div>
             </li>
           </ul>
@@ -296,7 +258,7 @@
           <div class="col-lg-12"><h2>Documents</h2></div>
         </div>
         <div class="row">
-          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+          <div class="col-xs-8 col-sm-6 col-md-4 col-xs-offset-2 col-sm-offset-0 divSize">
             <div class="thumbnail">
               <img src="assets/img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
@@ -305,16 +267,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
-            <div class="thumbnail">
-              <img src="assets/img/cvMiniature.jpg" alt="Titre pro." title="Titre pro.">
-              <div class="caption">
-                <p>Titre</p>
-                <div id="titre" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt disabled"> Télécharger</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+          <div class="col-xs-8 col-sm-6 col-md-4 col-xs-offset-2 col-sm-offset-0 divSize">
             <div class="thumbnail">
               <img src="assets/img/PSC1Miniature.jpg" alt="PSC1" title="PSC1">
               <div class="caption">
@@ -323,7 +276,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-8 col-sm-6 col-md-3 col-lg-3 col-xs-offset-2 col-sm-offset-0">
+          <div class="col-xs-8 col-sm-6 col-md-4 col-xs-offset-2 col-sm-offset-0 divSize">
             <div class="thumbnail">
               <img src="assets/img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
               <div class="caption">
@@ -362,9 +315,9 @@
       </div>
     </div>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/lib/angular/angular.min.js"></script>
+  <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
   <script type="text/javascript" src="assets/js/progressbar.js"></script>
   <script type="text/javascript" src="assets/js/multipleProgressbar.js"></script>

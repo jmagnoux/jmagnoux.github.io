@@ -1,4 +1,16 @@
+var app = angular.module("myCv",[]);
+app.controller("timelineCtrl", ["$scope", "$http", function($scope, $http){
+  $http.get('assets/js/career.json')
+  .then(function (response) {
+    var data = response.data;
+    $scope.experiences = data;
+  });
+  $scope.search = function(index){
+    return $scope.experiences[index].year;
+  }
+}]);
 $(function(){
+
   var items = $(".timeline-panel");
   function isElemInView(elem)
   {

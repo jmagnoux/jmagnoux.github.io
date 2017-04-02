@@ -45,6 +45,11 @@ h2
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   color: #FFF;
 }
+#home a
+{
+  color: #FFF;
+  text-decoration: none;
+}
 #home h2
 {
   margin: 50px 0 50px 0;
@@ -58,6 +63,19 @@ h2
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   background: url(../img/slide2.jpg) center 0 no-repeat fixed;
   color: white;
+}
+.improveVisibility
+{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+.improveVisibility:hover
+{
+  background-color: #F4A426;
 }
 #skills h2, #hobbies h2
 {
@@ -91,6 +109,10 @@ h2
 #files img
 {
   border: 1px solid black;
+}
+#files .divSize
+{
+  padding: 0 7%;
 }
 #hobbies
 {

@@ -1,0 +1,122 @@
+[
+  {
+    "isDate":true,
+    "year":"2017"
+  },
+  {
+    "isDate":false,
+    "year":"2017",
+    "study":true,
+    "title":"Formation « Développement Web »",
+    "place":"E2N, Noyon, Hauts-de-France",
+    "data1":"Formation labellisée Grande École du Numérique par L’État.",
+    "data2":"Préparation du Titre Professionnel ”Développeur Logiciel”.",
+    "data3":"http://formation.novei.fr/"
+  },
+  {
+    "isDate":false,
+    "year":"2017",
+    "study":false,
+    "title":"Développeur web",
+    "place":"E2N, Noyon, Hauts-de-France",
+    "data1":"Réalisation d'un site d'e-commerce",
+    "data2":"Développement d'un site e-commerce responsive.",
+    "data3":"→ HTML/CSS, JavaScript, Versionning, Pair programming, Rigueur."
+  },
+  {
+    "isDate":true,
+    "year":"2014"
+  },
+  {
+    "isDate":false,
+    "year":"2014",
+    "study":true,
+    "title":"Diplôme d’ingénieur",
+    "place":"ENSSAT, Lannion, Bretagne",
+    "data1":"Électronique et informatique industrielle.",
+    "data2":"Sujets principaux: Électronique numérique, Programmation, Traitement du signal, Télécommunication et Maths.",
+    "data3":"http://www.enssat.fr/fr_FR/formations/formation-ingenieur-electronique"
+  },
+  {
+    "isDate":false,
+    "year":"2014",
+    "study":false,
+    "title":"Ingénieur développement smartphone",
+    "place":"Orange Labs, Rennes, Bretagne",
+    "data1":"Réalisation d’un démonstrateur audio 3D sur terminaux mobiles.",
+    "data2":"Rétro-ingénierie &amp; Développement d’application.",
+    "data3":"→ Objective-C, C++, XCode, Autonomie, Gestion du temps, Rétro-ingénierie."
+  },
+  {
+    "isDate":false,
+    "year":"2014",
+    "study":false,
+    "title":"Ingénieur électronique numérique",
+    "place":"Laboratoire IRISA, Lannion, Bretagne",
+    "data1":"Étude de faisabilité de transmission UWB entre FPGA.",
+    "data2":"Recherche &amp; Développement d’un prototype.",
+    "data3":"→ VHDL, Virtex-6, Xilinx ISE, UWB, Autonomie, Recherche."
+  },
+  {
+    "isDate":true,
+    "year":"2013"
+  },
+  {
+    "isDate":false,
+    "year":"2013",
+    "study":false,
+    "title":"Ingénieur électronique analogique",
+    "place":"Association Observatoire Pleumeur-Bodou, Pleumeur-Bodou, Bretagne",
+    "data1":"Réalisation d’une carte d'asservissement.",
+    "data2":"Routage &amp; Asservissement",
+    "data3":"→ Kicad, Proteus, Java, Autonomie, Organisation."
+  },
+  {
+    "isDate":false,
+    "year":"2013",
+    "study":false,
+    "title":"Développeur C",
+    "place":"Club robotique ENSSAT, Lannion, Côtes-d’Armor",
+    "data1":"Programmation d’un tri par couleur.",
+    "data2":"Documentation &amp; Développement d’une fonctionnalité.",
+    "data3":"→ C, MPlab X, Kicad, Esprit d’équipe, Pédagogie."
+  },
+  {
+    "isDate":true,
+    "year":"2010"
+  },
+  {
+    "isDate":false,
+    "year":"2010",
+    "study":true,
+    "title":"DUT GEII",
+    "place":"IUT de l’Aisne, Cuffies, Hauts-de-France",
+    "data1":"Génie Électrique et Informatique Industrielle.",
+    "data2":"Sujets principaux: Électronique numérique et analogique, programmation C/C++ et Électrotechnique.",
+    "data3":"https://iut-aisne.u-picardie.fr/departements/ge2i/genie-electrique-et-informatique-industrielle-400711.kjsp"
+  },
+  {
+    "isDate":false,
+    "year":"2010",
+    "study":false,
+    "title":"Technicien développeur logiciel",
+    "place":"Matra Électronique, Lacroix-Saint-Ouen, Hauts-de-France",
+    "data1":"Étude de faisabilité de portage d’une IHM pour VEE.",
+    "data2":"Développement de prototypes",
+    "data3":"→ Windev, Qt, C/C++, Gestion du temps."
+  },
+  {
+    "isDate":true,
+    "year":"2008"
+  },
+  {
+    "isDate":false,
+    "year":"2008",
+    "study":true,
+    "title":"Baccalauréat Scientifique option Science de l’Ingénieur",
+    "place":"Lycée Jean Calvin, Noyon, Hauts-de-France",
+    "data1":"",
+    "data2":"",
+    "data3":"http://calvin.lyc.ac-amiens.fr/sitewp/"
+  }
+]
