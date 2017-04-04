@@ -5,23 +5,29 @@
   },
   {
     "isDate":false,
-    "year":"2017",
     "study":true,
     "title":"Formation « Développement Web »",
     "place":"E2N, Noyon, Hauts-de-France",
     "data1":"Formation de 6 mois à temps plein labellisée Grande École du Numérique par L’État.",
     "data2":"Préparation du Titre Professionnel ”Développeur Logiciel”.",
-    "data3":"http://formation.novei.fr/"
+    "data3":"http://formation.novei.fr/",
+    "titleEn":"«Web developpement» training",
+    "data1En":"6 moths full-time training labelled Grande École du Numérique by the State.",
+    "data2En":"Preparation of the Professional Title ”Software Developer”.",
+    "data3En":"http://formation.novei.fr/"
   },
   {
     "isDate":false,
-    "year":"2017",
     "study":false,
     "title":"Développeur web",
     "place":"E2N, Noyon, Hauts-de-France",
     "data1":"Réalisation d'un site d'e-commerce",
     "data2":"Développement d'un site e-commerce responsive.",
-    "data3":"→ HTML/CSS, JavaScript, Versionning, Pair programming, Rigueur."
+    "data3":"→ HTML/CSS, JavaScript, AngularJS, Versionning, Pair programming, Rigueur.",
+    "titleEn":"Web developer",
+    "data1En":"Realization of an e-commerce website",
+    "data2En":"Development of a responsive e-commerce website",
+    "data3En":"→ HTML/CSS, JavaScript, AngularJS, Versionning, Pair programming, Rigor."
   },
   {
     "isDate":true,
@@ -29,33 +35,42 @@
   },
   {
     "isDate":false,
-    "year":"2014",
     "study":true,
     "title":"Diplôme d’ingénieur",
     "place":"ENSSAT, Lannion, Bretagne",
     "data1":"Électronique et informatique industrielle.",
     "data2":"Sujets principaux: Électronique numérique, Programmation, Traitement du signal, Télécommunication et Maths.",
-    "data3":"http://www.enssat.fr/fr_FR/formations/formation-ingenieur-electronique"
+    "data3":"http://www.enssat.fr/fr_FR/formations/formation-ingenieur-electronique",
+    "titleEn":"Engineering degree",
+    "data1En":"Electronics and industrial computing.",
+    "data2En":"Main themes: Digital Electronics, Programming, Signal Processing, Telecommunications and Mathematics.",
+    "data3En":"http://www.enssat.fr/fr_FR/formations/formation-ingenieur-electronique"
   },
   {
     "isDate":false,
-    "year":"2014",
     "study":false,
     "title":"Ingénieur développement smartphone",
     "place":"Orange Labs, Rennes, Bretagne",
     "data1":"Réalisation d’un démonstrateur audio 3D sur terminaux mobiles.",
     "data2":"Rétro-ingénierie & Développement d’application.",
-    "data3":"→ Objective-C, C++, XCode, Autonomie, Gestion du temps, Rétro-ingénierie."
+    "data3":"→ Objective-C, C++, XCode, Autonomie, Gestion du temps, Rétro-ingénierie.",
+    "titleEn":"Smartphone application development engineer",
+    "data1En":"Realization of a 3D audio demonstrator on mobile terminals.",
+    "data2En":"Reverse engineering & application development",
+    "data3En":"→ Objective-C, C ++, XCode, Autonomy, Time Management, Reverse Engineering."
   },
   {
     "isDate":false,
-    "year":"2014",
     "study":false,
     "title":"Ingénieur électronique numérique",
     "place":"Laboratoire IRISA, Lannion, Bretagne",
     "data1":"Étude de faisabilité de transmission UWB entre FPGA.",
     "data2":"Recherche & Développement d’un prototype.",
-    "data3":"→ VHDL, Virtex-6, Xilinx ISE, UWB, Autonomie, Recherche."
+    "data3":"→ VHDL, Virtex-6, Xilinx ISE, UWB, R&D, Autonomie.",
+    "titleEn":"Digital electronic engineer",
+    "data1En":"Feasibility study of UWB transmission between FPGA",
+    "data2En":"Research and development of a prototype.",
+    "data3En":"→ VHDL, Virtex-6, Xilinx ISE, UWB, R&D, Autonomy."
   },
   {
     "isDate":true,
@@ -63,23 +78,29 @@
   },
   {
     "isDate":false,
-    "year":"2013",
     "study":false,
     "title":"Ingénieur électronique analogique",
     "place":"Association Observatoire Pleumeur-Bodou, Pleumeur-Bodou, Bretagne",
     "data1":"Réalisation d’une carte d'asservissement.",
     "data2":"Routage & Asservissement",
-    "data3":"→ Kicad, Proteus, Java, Autonomie, Organisation."
+    "data3":"→ Kicad, Proteus, Java, Autonomie, Organisation.",
+    "titleEn":"Analog electronics engineer",
+    "data1En":"Realization of a servo card.",
+    "data2En":"Routing & Servoing",
+    "data3En":"→ Kicad, Proteus, Java, Autonomy, Organization."
   },
   {
     "isDate":false,
-    "year":"2013",
     "study":false,
     "title":"Développeur C",
     "place":"Club robotique ENSSAT, Lannion, Côtes-d’Armor",
     "data1":"Programmation d’un tri par couleur.",
     "data2":"Documentation & Développement d’une fonctionnalité.",
-    "data3":"→ C, MPlab X, Kicad, Esprit d’équipe, Pédagogie."
+    "data3":"→ C, MPlab X, Kicad, Esprit d’équipe, Pédagogie.",
+    "titleEn":"C developer",
+    "data1En":"Programming a color sort function",
+    "data2En":"Documentation & Development of a feature.",
+    "data3En":"→ C, MPlab X, Kicad, Team spirit, Pedagogy."
   },
   {
     "isDate":true,
@@ -87,23 +108,29 @@
   },
   {
     "isDate":false,
-    "year":"2010",
     "study":true,
     "title":"DUT GEII",
     "place":"IUT de l’Aisne, Cuffies, Hauts-de-France",
     "data1":"Génie Électrique et Informatique Industrielle.",
     "data2":"Sujets principaux: Électronique numérique et analogique, programmation C/C++ et Électrotechnique.",
-    "data3":"https://iut-aisne.u-picardie.fr/departements/ge2i/genie-electrique-et-informatique-industrielle-400711.kjsp"
+    "data3":"https://iut-aisne.u-picardie.fr/departements/ge2i/genie-electrique-et-informatique-industrielle-400711.kjsp",
+    "titleEn":"Higher National Diploma in Technology",
+    "data1En":"Electrical Engineering and Industrial Computing",
+    "data2En":"Main topics: Digital and analog electronics, C / C ++ programming and Electrical engineering.",
+    "data3En":"https://iut-aisne.u-picardie.fr/departements/ge2i/genie-electrique-et-informatique-industrielle-400711.kjsp"
   },
   {
     "isDate":false,
-    "year":"2010",
     "study":false,
     "title":"Technicien développeur logiciel",
     "place":"Matra Électronique, Lacroix-Saint-Ouen, Hauts-de-France",
     "data1":"Étude de faisabilité de portage d’une IHM pour VEE.",
     "data2":"Développement de prototypes",
-    "data3":"→ Windev, Qt, C/C++, Gestion du temps."
+    "data3":"→ Windev, Qt, C/C++, Gestion du temps.",
+    "titleEn":"Software developer",
+    "data1En":"A GUI porting feasibility study for VEE",
+    "data2En":"Development of prototypes",
+    "data3En":"→ Windev, Qt, C/C++, Time Management."
   },
   {
     "isDate":true,
@@ -111,12 +138,15 @@
   },
   {
     "isDate":false,
-    "year":"2008",
     "study":true,
     "title":"Baccalauréat Scientifique option Science de l’Ingénieur",
     "place":"Lycée Jean Calvin, Noyon, Hauts-de-France",
     "data1":"",
     "data2":"",
-    "data3":"http://calvin.lyc.ac-amiens.fr/sitewp/"
+    "data3":"http://calvin.lyc.ac-amiens.fr/sitewp/",
+    "titleEn":"high school diploma in sciences",
+    "data1En":"",
+    "data2En":"",
+    "data3En":"http://calvin.lyc.ac-amiens.fr/sitewp/"
   }
 ]
