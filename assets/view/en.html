@@ -14,17 +14,17 @@
       <div class="col-sm-4">
         <div class="row">
           <div class="col-sm-6">
-            <a href="https://github.com/jmagnoux" target="_blank" class="fa fa-github-alt fa-4x"></a>
+            <a href="https://github.com/jmagnoux" class="fa fa-github-alt fa-4x" title="Github link"></a>
           </div>
           <div class="col-sm-6">
-            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-magnoux-a0964a138/" target="_blank" class="fa fa-linkedin fa-4x"></a>
+            <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-magnoux-a0964a138/" class="fa fa-linkedin fa-4x" title="Linkedin link"></a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="row">
           <div class="col-lg-12">
-            <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="sr-only">e-mail :</span> <a href="mailto:jmagnoux@gmail.com">jmagnoux@gmail.com</a>
+            <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="sr-only">e-mail :</span> <a href="mailto:jmagnoux@gmail.com" title="Send me an email">jmagnoux@gmail.com</a>
             </p>
           </div>
         </div>
@@ -197,7 +197,7 @@
               <p data-ng-bind="xp.data1En"></p>
               <p data-ng-bind="xp.data2En"></p>
               <p data-ng-bind="xp.data3En" data-ng-if="!xp.study"></p>
-              <p data-ng-if="xp.study"><a href={{xp.data3En}} target="_blank">Learn more ></a></p>
+              <p data-ng-if="xp.study"><a href={{xp.data3En}} title="Learn more about the places">Learn more ></a></p>
             </div>
           </div>
         </li>
@@ -216,7 +216,8 @@
           <img src="assets/img/cvMiniature.jpg" alt="paper C.V." title="paper C.V.">
           <div class="caption">
             <p>C.V.</p>
-            <div id="cvJeromeMagnoux" onclick="displayModal(event, 'pdf')" class="btn btn-primary glyphicon glyphicon-download-alt"> Télécharger</div>
+            <a id="cvJeromeMagnoux" href="assets/files/cvJeromeMagnoux.pdf" class="btn btn-primary btn-block glyphicon glyphicon-download-alt" title="Download my paper CV" download> Download</a>
+            <a id="cvJeromeMagnoux" href="assets/files/cvJeromeMagnoux.pdf" class="btn btn-info btn-block glyphicon glyphicon-eye-open" title="Preview my paper CV"> Preview</a>
           </div>
         </div>
       </div>
@@ -225,7 +226,8 @@
           <img src="assets/img/PSC1Miniature.jpg" alt="PSC1" title="PSC1">
           <div class="caption">
             <p>First Aid and CPR Certification</p>
-            <div id="PSC1" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt" > Télécharger</div>
+            <a id="cvJeromeMagnoux" href="assets/files/PSC1.jpg" class="btn btn-primary btn-block glyphicon glyphicon-download-alt" title="Download my PSC1" download> Télécharger</a>
+            <a id="cvJeromeMagnoux" href="assets/files/PSC1.jpg" class="btn btn-info btn-block glyphicon glyphicon-eye-open" title="Preview my PSC1"> Prévisualiser</a>
           </div>
         </div>
       </div>
@@ -234,7 +236,8 @@
           <img src="assets/img/cvMiniature.jpg" alt="C.V. papier" title="C.V. papier">
           <div class="caption">
             <p>TOEIC</p>
-            <div id="TOEIC" onclick="displayModal(event, 'jpg')" class="btn btn-primary glyphicon glyphicon-download-alt disabled"> Télécharger</div>
+            <a id="cvJeromeMagnoux" href="assets/files/cvJeromeMagnoux.pdf" class="btn btn-primary btn-block glyphicon glyphicon-download-alt disabled" title="Download my TOEIC"download> Télécharger</a>
+            <a id="cvJeromeMagnoux" href="assets/files/cvJeromeMagnoux.pdf" class="btn btn-info btn-block glyphicon glyphicon-eye-open disabled" title="Preview my TOEIC"> Prévisualiser</a>
           </div>
         </div>
       </div>
