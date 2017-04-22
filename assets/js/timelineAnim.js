@@ -8,6 +8,7 @@ app.controller("timelineCtrl", ["$scope", "$http", function($scope, $http){
   });
   $scope.$on('ngRepeatFinished', function(ngRepeatFinishedEvent) {
     items = $(".timeline-panel");
+    testFunction();
   });
 }]);
 app.directive('onFinishRender', function ($timeout) {
