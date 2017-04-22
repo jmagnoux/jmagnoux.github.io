@@ -1,7 +1,6 @@
 var startColor = '#FF4B2A';
 var endColor = '#A41C22';
-
-window.onload = function onLoad() {
+window.addEventListener("load", function(event) {
   window.index = 0;
   var progressBars=[];
   var iOS = /iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -44,4 +43,4 @@ window.onload = function onLoad() {
       createBarProgress(progressBars[i]);
     }
   }
-};
+});
