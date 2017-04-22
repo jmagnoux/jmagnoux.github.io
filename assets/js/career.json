@@ -18,6 +18,19 @@
   },
   {
     "isDate":false,
+    "study":true,
+    "title":"Formation « accessibilité web »",
+    "place":"E2N, Noyon, Hauts-de-France",
+    "data1":"Formation aux bonnes pratiques qualité web.",
+    "data2":"Certification opquast 865 points",
+    "data3":"https://certificates.opquast.com/certificate/8J4R2T/",
+    "titleEn":"«Web accessibility» training",
+    "data1En":"Training in good web quality practices.",
+    "data2En":"Opquast certification obtention 865 points",
+    "data3En":"https://certificates.opquast.com/certificate/8J4R2T/"
+  },
+  {
+    "isDate":false,
     "study":false,
     "title":"Développeur web",
     "place":"E2N, Noyon, Hauts-de-France",
